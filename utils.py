@@ -9,8 +9,6 @@ def fac_mod(x, p):
 def is_prime(p):
     # Wilson's theorem
     return (fac_mod(p-1, p) + 1) % p == 0
-<<<<<<< Updated upstream
-=======
 
 def is_five_power(n):
     while n >= 5:
@@ -21,4 +19,3 @@ def is_two_power(n):
     while n >= 2:
         n //= 2
     return n == 1
->>>>>>> Stashed changes
